@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0EE3781C383C0100C65698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE3551C383C0100C65698 /* AppDelegate.m */; };
+		1C0EE3791C383C0100C65698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0EE3561C383C0100C65698 /* Assets.xcassets */; };
+		1C0EE37A1C383C0100C65698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0EE3571C383C0100C65698 /* LaunchScreen.storyboard */; };
+		1C0EE37B1C383C0100C65698 /* TextNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE35B1C383C0100C65698 /* TextNoteViewController.m */; };
+		1C0EE37D1C383C0100C65698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE35D1C383C0100C65698 /* main.m */; };
+		1C0EE37E1C383C0100C65698 /* TextNoteInputModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE3611C383C0100C65698 /* TextNoteInputModel.m */; };
+		1C0EE37F1C383C0100C65698 /* TextNoteViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE3641C383C0100C65698 /* TextNoteViewModel.m */; };
+		1C0EE3801C383C0100C65698 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE3681C383C0100C65698 /* BaseTableViewController.m */; };
+		1C0EE3811C383C0100C65698 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE36A1C383C0100C65698 /* BaseViewController.m */; };
+		1C0EE3821C383C0100C65698 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE36D1C383C0100C65698 /* BaseTableViewCell.m */; };
+		1C0EE3831C383C0100C65698 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE36F1C383C0100C65698 /* BaseView.m */; };
+		1C0EE3841C383C0100C65698 /* LinedTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE3721C383C0100C65698 /* LinedTextInputView.m */; };
+		1C0EE3851C383C0100C65698 /* UIView+UIViewGeometryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EE3761C383C0100C65698 /* UIView+UIViewGeometryAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0EE3541C383C0100C65698 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C0EE3551C383C0100C65698 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C0EE3561C383C0100C65698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C0EE3581C383C0100C65698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C0EE35A1C383C0100C65698 /* TextNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextNoteViewController.h; sourceTree = "<group>"; };
+		1C0EE35B1C383C0100C65698 /* TextNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextNoteViewController.m; sourceTree = "<group>"; };
+		1C0EE35C1C383C0100C65698 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0EE35D1C383C0100C65698 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C0EE3601C383C0100C65698 /* TextNoteInputModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextNoteInputModel.h; sourceTree = "<group>"; };
+		1C0EE3611C383C0100C65698 /* TextNoteInputModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextNoteInputModel.m; sourceTree = "<group>"; };
+		1C0EE3631C383C0100C65698 /* TextNoteViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextNoteViewModel.h; sourceTree = "<group>"; };
+		1C0EE3641C383C0100C65698 /* TextNoteViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextNoteViewModel.m; sourceTree = "<group>"; };
+		1C0EE3671C383C0100C65698 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		1C0EE3681C383C0100C65698 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		1C0EE3691C383C0100C65698 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1C0EE36A1C383C0100C65698 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1C0EE36C1C383C0100C65698 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		1C0EE36D1C383C0100C65698 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		1C0EE36E1C383C0100C65698 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		1C0EE36F1C383C0100C65698 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		1C0EE3711C383C0100C65698 /* LinedTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinedTextInputView.h; sourceTree = "<group>"; };
+		1C0EE3721C383C0100C65698 /* LinedTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinedTextInputView.m; sourceTree = "<group>"; };
+		1C0EE3741C383C0100C65698 /* UIKitExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitExtentions.h; sourceTree = "<group>"; };
+		1C0EE3751C383C0100C65698 /* UIView+UIViewGeometryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewGeometryAdditions.h"; sourceTree = "<group>"; };
+		1C0EE3761C383C0100C65698 /* UIView+UIViewGeometryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewGeometryAdditions.m"; sourceTree = "<group>"; };
+		1CCA7EF21BCA7563005F3808 /* LinedNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinedNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CCA7EEF1BCA7563005F3808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0EE3521C383C0100C65698 /* LinedNote */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE3531C383C0100C65698 /* AppDelegate */,
+				1C0EE3561C383C0100C65698 /* Assets.xcassets */,
+				1C0EE3571C383C0100C65698 /* LaunchScreen.storyboard */,
+				1C0EE3591C383C0100C65698 /* Controllers */,
+				1C0EE35C1C383C0100C65698 /* Info.plist */,
+				1C0EE35D1C383C0100C65698 /* main.m */,
+				1C0EE35E1C383C0100C65698 /* Models */,
+				1C0EE3651C383C0100C65698 /* SupportingClasses */,
+				1C0EE3771C383C0100C65698 /* Views */,
+			);
+			path = LinedNote;
+			sourceTree = "<group>";
+		};
+		1C0EE3531C383C0100C65698 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE3541C383C0100C65698 /* AppDelegate.h */,
+				1C0EE3551C383C0100C65698 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1C0EE3591C383C0100C65698 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE35A1C383C0100C65698 /* TextNoteViewController.h */,
+				1C0EE35B1C383C0100C65698 /* TextNoteViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1C0EE35E1C383C0100C65698 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE35F1C383C0100C65698 /* InputModels */,
+				1C0EE3621C383C0100C65698 /* ViewModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C0EE35F1C383C0100C65698 /* InputModels */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE3601C383C0100C65698 /* TextNoteInputModel.h */,
+				1C0EE3611C383C0100C65698 /* TextNoteInputModel.m */,
+			);
+			path = InputModels;
+			sourceTree = "<group>";
+		};
+		1C0EE3621C383C0100C65698 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE3631C383C0100C65698 /* TextNoteViewModel.h */,
+				1C0EE3641C383C0100C65698 /* TextNoteViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1C0EE3651C383C0100C65698 /* SupportingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE3661C383C0100C65698 /* BaseControllers */,
+				1C0EE36B1C383C0100C65698 /* BaseViews */,
+				1C0EE3701C383C0100C65698 /* LinedTextInputView */,
+				1C0EE3731C383C0100C65698 /* UIKitExtentions */,
+			);
+			path = SupportingClasses;
+			sourceTree = "<group>";
+		};
+		1C0EE3661C383C0100C65698 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE3671C383C0100C65698 /* BaseTableViewController.h */,
+				1C0EE3681C383C0100C65698 /* BaseTableViewController.m */,
+				1C0EE3691C383C0100C65698 /* BaseViewController.h */,
+				1C0EE36A1C383C0100C65698 /* BaseViewController.m */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		1C0EE36B1C383C0100C65698 /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE36C1C383C0100C65698 /* BaseTableViewCell.h */,
+				1C0EE36D1C383C0100C65698 /* BaseTableViewCell.m */,
+				1C0EE36E1C383C0100C65698 /* BaseView.h */,
+				1C0EE36F1C383C0100C65698 /* BaseView.m */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		1C0EE3701C383C0100C65698 /* LinedTextInputView */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE3711C383C0100C65698 /* LinedTextInputView.h */,
+				1C0EE3721C383C0100C65698 /* LinedTextInputView.m */,
+			);
+			path = LinedTextInputView;
+			sourceTree = "<group>";
+		};
+		1C0EE3731C383C0100C65698 /* UIKitExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EE3741C383C0100C65698 /* UIKitExtentions.h */,
+				1C0EE3751C383C0100C65698 /* UIView+UIViewGeometryAdditions.h */,
+				1C0EE3761C383C0100C65698 /* UIView+UIViewGeometryAdditions.m */,
+			);
+			path = UIKitExtentions;
+			sourceTree = "<group>";
+		};
+		1C0EE3771C383C0100C65698 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1CCA7EE91BCA7563005F3808 = {
+			isa = PBXGroup;
+			children = (
+				1C0EE3521C383C0100C65698 /* LinedNote */,
+				1CCA7EF31BCA7563005F3808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CCA7EF31BCA7563005F3808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA7EF21BCA7563005F3808 /* LinedNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CCA7EF11BCA7563005F3808 /* LinedNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CCA7F091BCA7563005F3808 /* Build configuration list for PBXNativeTarget "LinedNote" */;
+			buildPhases = (
+				1CCA7EEE1BCA7563005F3808 /* Sources */,
+				1CCA7EEF1BCA7563005F3808 /* Frameworks */,
+				1CCA7EF01BCA7563005F3808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinedNote;
+			productName = CrossoverNote;
+			productReference = 1CCA7EF21BCA7563005F3808 /* LinedNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CCA7EEA1BCA7563005F3808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Crossover;
+				TargetAttributes = {
+					1CCA7EF11BCA7563005F3808 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CCA7EED1BCA7563005F3808 /* Build configuration list for PBXProject "LinedNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CCA7EE91BCA7563005F3808;
+			productRefGroup = 1CCA7EF31BCA7563005F3808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CCA7EF11BCA7563005F3808 /* LinedNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CCA7EF01BCA7563005F3808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0EE3791C383C0100C65698 /* Assets.xcassets in Resources */,
+				1C0EE37A1C383C0100C65698 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CCA7EEE1BCA7563005F3808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0EE3781C383C0100C65698 /* AppDelegate.m in Sources */,
+				1C0EE3841C383C0100C65698 /* LinedTextInputView.m in Sources */,
+				1C0EE37D1C383C0100C65698 /* main.m in Sources */,
+				1C0EE3831C383C0100C65698 /* BaseView.m in Sources */,
+				1C0EE37B1C383C0100C65698 /* TextNoteViewController.m in Sources */,
+				1C0EE3851C383C0100C65698 /* UIView+UIViewGeometryAdditions.m in Sources */,
+				1C0EE37F1C383C0100C65698 /* TextNoteViewModel.m in Sources */,
+				1C0EE3821C383C0100C65698 /* BaseTableViewCell.m in Sources */,
+				1C0EE3801C383C0100C65698 /* BaseTableViewController.m in Sources */,
+				1C0EE3811C383C0100C65698 /* BaseViewController.m in Sources */,
+				1C0EE37E1C383C0100C65698 /* TextNoteInputModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C0EE3571C383C0100C65698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0EE3581C383C0100C65698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CCA7F071BCA7563005F3808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CCA7F081BCA7563005F3808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CCA7F0A1BCA7563005F3808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinedNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Naveen-Shan.LinedNote";
+				PRODUCT_NAME = LinedNote;
+			};
+			name = Debug;
+		};
+		1CCA7F0B1BCA7563005F3808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinedNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Naveen-Shan.LinedNote";
+				PRODUCT_NAME = LinedNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CCA7EED1BCA7563005F3808 /* Build configuration list for PBXProject "LinedNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCA7F071BCA7563005F3808 /* Debug */,
+				1CCA7F081BCA7563005F3808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CCA7F091BCA7563005F3808 /* Build configuration list for PBXNativeTarget "LinedNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCA7F0A1BCA7563005F3808 /* Debug */,
+				1CCA7F0B1BCA7563005F3808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CCA7EEA1BCA7563005F3808 /* Project object */;
+}
